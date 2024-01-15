@@ -1,0 +1,95 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,900;1,100;1,300;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,900&family=Mulish:ital,wght@0,400;0,700;0,800;1,600&family=Open+Sans:wght@400;700;800&family=Poppins:wght@500;600;700&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+  *{
+   font-family: 'Mulish', sans-serif;
+  }
+  body{
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  .nav-logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  .nav-logo img{
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+  }
+  .nav-title{
+    font-size: 36px;
+    font-weight: 800;
+  }
+  .nav-title-o{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul{
+    display: flex;
+    gap: 44px;
+    align-items: center;
+  }
+  nav li{
+    list-style: none;
+   
+  }
+  nav a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+  }
+  .nav-home{
+    color: #FF5400;
+  }
+  /* _-------------------banner section start________________________ */
+
+  .banner{
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    height: 500px;
+    border-radius: 16px;
+  }
+  .banner-title{
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+    padding-bottom: 24px;
+  }
+  .banner-description{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+
+  }
+  .banner-button input{
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+  }
+  .banner-button{
+    width: 800px;
+    height: 55px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 48px;
+    margin-left: 185px;
+    padding: 22px 0px;
+  }
+
+
+ 
+ 
