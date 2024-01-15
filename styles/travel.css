@@ -58,6 +58,7 @@
     url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     height: 500px;
     border-radius: 16px;
+    margin-bottom: 100px;
   }
   .banner-title{
     color: white;
@@ -78,17 +79,91 @@
     height: 52px;
     border-radius: 8px;
     border: none;
+    gap: 24px;
   }
   .banner-button{
+    background: rgba(255, 255, 255, 0.30);
     width: 800px;
     height: 55px;
     gap: 24px;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
     margin-top: 48px;
     margin-left: 185px;
     padding: 22px 0px;
   }
+  #find-now{
+   
+background: #FF5400;
+  }
+  ______________SEction two start______________
+
+  .section-two-banner{
+    width: 570px;
+  }
+
+.section-two{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+.section-two-banner h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-two-banner p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+
+}
+.section-two-banner button{
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+}
+.section-two-img{
+    margin-top: 50px;
+}
+
+/* ________________Section 3 start___________________ */
+
+.destination{
+   text-align: center; 
+   margin-top: 100px;
+}
+.destination h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+
+}
+.country-one{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 45px;
+}
+.country-two{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+.country-three{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
 
 
  
