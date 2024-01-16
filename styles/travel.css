@@ -239,6 +239,26 @@ background: #FF5400;
     font-weight: 400;
     font-style: normal;
 }
+/* ___________________SECTION FIVE START_____________________ */
+.lost-container{
+  width: 532px ;
+}
+.container-place{
+  display: flex;
+  gap: 45px;
+}
+.lost-pic{
+  background-image: url(../Images/Group\ 40089.png);
+  width: 610px;
+  height: 424px;
+}
+.lost-pic h4{ 
+  text-align: center;
+  align-items: center;
+  color: #FFF;
+font-size: 24px;
+font-weight: 700;
+  }
 
 
  
