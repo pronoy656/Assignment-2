@@ -507,6 +507,96 @@ font-weight: 400;
 align-items: center;
  }
 
+ /* Media responsive_________________________ */
+ @media screen and (max-width:576px) {
+nav,.banner-button{
+  flex-direction: column;
+}
+.section-two{
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+.banner-button input{
+ margin-top: 0px;
+ width: 290px;
+}
+.banner-button{
+height: 260px;
+margin: 0px 10px;
+width: auto;
+flex-direction: column;
+gap: 0px;
+
+}
+ .nav-logo{
+  padding-left: 10px;
+}
+.banner{
+  margin-left: 10px;
+}
+.banner-title{
+  color: #FFF;
+font-size: 22px;
+font-weight: 800;
+padding-top: 5px;
+padding-bottom: 10px;
+
+}
+
+  .banner-description{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .section-two-banner{
+    width: 335px;
+  }
+  .section-two-banner h2{
+    color: #131318;
+  font-size: 20px;
+  font-weight: 800;
+  }
+  .section-two-img img{
+    width: 380px;
+    height: 342px;
+    margin-top: 25px;
+  }
+  .destination h1{
+    color: #131318;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+padding-top: 24px;
+
+  }
+  .country-one{
+    grid-template-columns: repeat(1,1fr);
+
+  }
+  .country-two{
+    grid-template-columns: repeat(1,1fr);
+   
+ }
+  .country-three{
+    grid-template-columns: repeat(1,1fr);
+ 
+ }
+ .country-one img{
+  width: 335px ;
+  height: 176px;
+ }
+ .country-two img{
+  width: 335px ;
+  height: 176px;
+  gap: 16px;
+ }
+ .country-three img{
+  width: 335px ;
+  height: 176px;
+ }
+
 
  
  
