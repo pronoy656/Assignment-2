@@ -79,9 +79,9 @@
     height: 52px;
     border-radius: 8px;
     border: none;
-    gap: 24px;
   }
   .banner-button{
+    display: flex;
     background: rgba(255, 255, 255, 0.30);
     width: 800px;
     height: 55px;
@@ -89,13 +89,13 @@
     border-radius: 8px;
     margin-top: 48px;
     margin-left: 185px;
-    padding: 22px 0px;
+    padding: 22px;
   }
   #find-now{
    
 background: #FF5400;
   }
-  ______________SEction two start______________
+  /* ______________SEction two start______________ */
 
   .section-two-banner{
     width: 570px;
@@ -110,6 +110,13 @@ background: #FF5400;
     color: #131318;
     font-size: 40px;
     font-weight: 800;
+}
+.list{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+
 }
 .section-two-banner p{
     color: rgba(19, 19, 24, 0.70);
@@ -163,6 +170,19 @@ background: #FF5400;
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
     margin-top: 24px;
+}
+.country{
+  position: relative;
+  text-align: center;
+  color: #FFF;
+font-size: 28px;
+font-weight: 800;
+}
+.maldives{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* ___________________________SECTION 4 START____________________ */
 .choose{
@@ -239,6 +259,75 @@ background: #FF5400;
     font-weight: 400;
     font-style: normal;
 }
+/* ___________________________SEction five one start_____________ */
+.holiday-banner{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.holiday-title{
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+.holiday-description{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.holiday-img img{
+  width: 300px;
+  height: 340px;
+}
+.card-title{
+  color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.card-description{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+
+.holiday-card{
+  border: 1px solid #ed9569;
+  background: rgba(241, 166, 82, 0.05);
+  padding: 8px;
+  width: 310px;
+  height: 363px;
+  border: none;
+  font-style: normal;
+}
+.holiday-btn{
+  background: #FF5400;
+    margin-top: 32px;
+      width: 174px;
+      height: 52px;
+      border-radius: 8px;
+      border: none;
+      color: #FFF;
+font-size: 20px;
+font-weight: 800;
+}
+.holiday-flex-one{
+  display: flex;
+}
+.holiday-flex-two{
+  display: flex;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.holiday-flex-three{
+  display: flex;
+}
+.holiday-flex-four{
+  display: flex;
+}
 /* ___________________SECTION FIVE START_____________________ */
 .lost-container{
   width: 532px ;
@@ -246,19 +335,177 @@ background: #FF5400;
 .container-place{
   display: flex;
   gap: 45px;
+  margin-top: 113px;
 }
 .lost-pic{
-  background-image: url(../Images/Group\ 40089.png);
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 40089.png);
   width: 610px;
   height: 424px;
+  margin-top: 55px;
+  border-radius: 16px;
 }
 .lost-pic h4{ 
   text-align: center;
   align-items: center;
   color: #FFF;
-font-size: 24px;
-font-weight: 700;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 176px 167px;
   }
+  .lost-title{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+
+  }
+  .lost-description{
+    color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+
+  }
+  .lost-list{
+    color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 24px;
+
+  }
+  .lost-btn{
+    background: #FF5400;
+    margin-top: 32px;
+      width: 174px;
+      height: 52px;
+      border-radius: 8px;
+      border: none;
+      color: #FFF;
+font-size: 20px;
+font-weight: 800;
+ }
+ /* <!-- _________________SECTION 6 START________________________________ --> */
+ .login-form{
+  border-radius: 16px;
+border: 1px solid #FF5400;
+width: 474px;
+height: 422px;
+padding-left: 40px;
+margin-top: 100px;
+
+ }
+ .login-form h5{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 40px;
+  margin-bottom: 16px;
+ }
+ .login-form p{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+ }
+ .info{
+  border-top: 1px solid gray;
+  /* margin: 24px 0; */
+  height: 48px;
+  margin-bottom: 16px;
+ }
+ input{
+  display: block;
+  width: 393px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.30);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  border: none;
+  padding: 16px 20px;
+ }
+ .Subscribe-btn{
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  border: none;
+  background: #FF5400;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  /* margin-top: 24px; */
+  margin-bottom: 40px;
+ }
+ .login-section{
+  display: flex;
+  gap: 24px;
+ }
+ .login-img{
+  margin-top: 100px;
+  width: 672px;
+  height: 422px;
+  position: relative;
+
+ }
+ .text{
+  border-radius: 16px;
+  background: #FF5400;
+  /* transform: rotate(-19.628deg); */
+  width: 324px;
+  text-align: center;
+  padding-top: 0px;
+  position: absolute;
+  bottom: -0px;
+align-items:self-end;
+ }
+ .text h5{
+  color: #FFF;
+  font-size: 20px;;
+  font-weight: 300;
+ }
+ .text h3{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 800;
+  padding-top: 4px;
+  margin-top: 3px;
+ }
+ /* _______________________FOOTER SECTION START________________________ */
+ .footer{
+  text-align: center;
+  margin-top: 100px;
+  background: rgba(19, 19, 24, 0.05);
+  height: 502px;
+  padding-top: 100px;
+ }
+ .footer-title{
+  display: flex;
+ padding-left: 480px;
+ }
+ .footer-title span{
+  color: #FF5400;
+font-size: 32px;
+font-weight: 800;
+ }
+ .footer-title h4{
+  color: var(--Dark-01, #131318);
+font-size: 32px;
+font-weight: 800;
+ }
+ .footer P{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+ }
+ .copyright{
+  padding-top: 100px;
+ }
+ .Social-link{
+  border-bottom: 1px solid gray;
+align-items: center;
+ }
 
 
  
