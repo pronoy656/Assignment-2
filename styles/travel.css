@@ -472,16 +472,20 @@ margin-top: 100px;
   position: relative;
 
  }
+ .login-img{
+  position: relative;
+ }
  .text{
   border-radius: 16px;
   background: #FF5400;
-  /* transform: rotate(-19.628deg); */
+  transform: rotate(-19.628deg);
   width: 324px;
   text-align: center;
   padding-top: 0px;
   position: absolute;
   bottom: -0px;
-align-items:self-end;
+  margin-left: 330px;
+  margin-bottom: 50px;
  }
  .text h5{
   color: #FFF;
