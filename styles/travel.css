@@ -512,6 +512,10 @@ align-items: center;
 nav,.banner-button{
   flex-direction: column;
 }
+.nav ul{
+  padding-left: 8px;
+  gap: 17px;
+}
 .section-two{
   flex-direction: column;
   gap: 20px;
@@ -533,7 +537,8 @@ gap: 0px;
   padding-left: 10px;
 }
 .banner{
-  margin-left: 10px;
+  width: 397px;
+  margin-left: 8px;
 }
 .banner-title{
   color: #FFF;
@@ -552,6 +557,8 @@ padding-bottom: 10px;
   }
   .section-two-banner{
     width: 335px;
+    margin-top: -71px;
+    margin-left: 8px;
   }
   .section-two-banner h2{
     color: #131318;
@@ -559,9 +566,11 @@ padding-bottom: 10px;
   font-weight: 800;
   }
   .section-two-img img{
-    width: 380px;
+    width: 397px;
+    margin-left: 8px;
     height: 342px;
-    margin-top: 25px;
+    margin-bottom: -82px;
+    margin-top: -30px;
   }
   .destination h1{
     color: #131318;
@@ -595,7 +604,125 @@ padding-top: 24px;
  .country-three img{
   width: 335px ;
   height: 176px;
- }
+}
+.choose-title{
+text-align: center;
+font-weight: 800;
+padding-bottom: 0px;
+}
+.choose-description{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+margin-top: 16px;
+padding: 10px 15px;
+}
+.card{
+  margin-top: 0px;
+  grid-template-columns: repeat(1, 1fr);
+}
+.card-one{
+  width: 332px;
+  margin-bottom: 22px;
+  height: 310px;
+}
+.card-two{
+width: 332px;
+}
+.card-three{
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 332px;
+}
+.holiday-title{
+  color: #131318;
+font-size: 25px;
+font-weight: 800;
+}
+.holiday-flex-one{
+  flex-direction: column;
+}
+.holiday-flex-two{
+  flex-direction: column;
+}
+.holiday-flex-three{
+  flex-direction: column;
+}
+.holiday-flex-four{
+  flex-direction: column;
+}
+.grid{
+  grid-template-columns: repeat(1, 1fr);
+}
+.container-place{
+  flex-direction: column;
+}
+.lost-title{
+font-size: 20px;
+font-weight: 800;
+margin-top: -60px;
+}
+.lost-container{
+  width: 403px;
+  padding: 0px 8px;
+}
+.lost-pic{
+  margin-top: -27px;
+  width: 397px;
+  margin-left: 8px;
+}
+.login-section{
+  flex-direction: column;
+}
+.login-form{
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 50px;
+  padding-left: 10px;
+  width: 391px
+}
+.login-form h2{
+  text-align: center;
+}
+.login-form p{
+  text-align: center;
+}
+.info input{
+  width: 342px;
+}
+.info button{
+  width: 382px;
+}
+.login-img{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px
+}
+.login-img img{
+  width: 396px;
+  height: 450px;
+}
+.text{
+  width: 248px
+}
+.login-section{
+  gap: 0px;
+}
+.footer-title{
+  padding-left: 38px;
+  margin-bottom: -32px;
+}
+.footer{
+  padding-top: 0px;
+}
+.copyright{
+  padding-top: 0px;
+}
+
+
+
+}
 
 
  
